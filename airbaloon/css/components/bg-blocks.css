@@ -1,0 +1,18 @@
+.flight-plan {
+  background-image: url(../pict/big/bg/bg-flight-map.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 685px;
+}
+.somit-promo {
+  height: 645px;
+  background-position: center 0px;
+  background-image: url(../pict/big/bg/bgbg.png);
+  background-repeat: no-repeat;
+}
+.number-of-flights {
+  background-image: url(../pict/big/bg/bg-number-of-flights.jpg);
+  min-height: 375px;
+  background-position: center -320px;
+  background-repeat: no-repeat;
+}

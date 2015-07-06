@@ -1,0 +1,82 @@
+.slider {
+  .underlined{
+    margin: 0 auto;
+  }
+  margin-top: 98px;
+  margin-bottom: 53px;
+  img {
+    padding: 8px;
+  } 
+  & .owl-stage-outer {
+  height: 240px;
+  }
+  .owl-my .owl-size {
+    margin: 3px;
+  }
+  .owl-my .owl-size img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .owl-prev {
+    position: absolute;
+    bottom: 80px;
+    right: 1140px;
+  }
+  .owl-next {
+    position: absolute;
+    bottom: 80px;
+    left: 1140px;
+  }
+}
+.instructors {
+ & .instructor-foto{
+    width: 180px;
+    height: 160px;
+    margin: 0 auto;
+    img {
+      width: 100%;
+    }
+  }
+  .instructor-icon {
+    background-image: url(../pict/big/icons/instructor-icon-sprite.png);
+    width: 74px;
+    position: absolute;
+    top: 120px;
+    left: 175px;
+    height: 75px;
+   }
+  #pilot1 {
+    .instructor-icon();
+    background-position: 0 0;
+   }
+   #pilot2 {
+    .instructor-icon();
+    background-position: 0 0;
+   }
+   #dispatcher {
+    .instructor-icon();
+    background-position: 147px 0;
+   }
+   #technician {
+    .instructor-icon();
+    background-position: 73px 0;
+  }
+}
+.reviews {
+  .col-xs-12.col-sm-12.col-md-10 {
+    max-width: 600px;
+  }
+   .carousel-control.right, .carousel-control.left {
+    background-image: none;
+  }
+  .item {
+    img{
+      margin: 0 auto;
+    }
+  }
+  .carousel-control img {
+    top: 100px;
+    position: relative;
+   }
+}

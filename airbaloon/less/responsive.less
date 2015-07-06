@@ -1,0 +1,606 @@
+//      
+//                       d8888b. .d8888P  a8888a                 
+//                           `88 88'     d8' ..8b 
+//                        aaad8' 88baaa. 88 .P 88                    
+//            8888888        `88 88` `88 88 d' 88              
+//                           .88 8b. .d8 Y8'' .8P                   
+//                       d88888P `Y888P'  Y8888P             
+//
+@media (min-width:0px) and (max-width:360px){
+  section h2 {
+  font-size: 28px;
+   line-height: 26px;
+  }
+  .somit-promo {
+    padding-top: 90px;
+    height: 360px;
+    background-position:  center 0px;
+    background-image: url(../pict/small/bg/bg-main.png);//background-image: url(../pict/big/bg/bg-top.jpg);
+    background-repeat: no-repeat;
+    .promo-slogan{
+      font-size: @font-size + 10;
+    }
+    a, a:after {
+       visibility: hidden;
+    }
+    .hoverline {
+      visibility: hidden;
+      display: none;
+    }
+  }
+  .flight-plan {
+    height: 610px;
+    background-image: url(../pict/small/bg/flight-plan-bg.jpg);
+    .flightplan-block {
+      padding-left: 30px;
+    }
+    .flightplan-line {
+    background-image: url(../pict/small/icons/ballon.png);
+    height: 55px;
+  }
+    #baloon1{ background-position: 0 0; }
+    #baloon2{ background-position: 0px -55px; }
+    #baloon3{ background-position: 0px -112px; }
+    #baloon4{ background-position: 0px -170px; }
+    #baloon5{ background-position: 0px -225px; }
+    .timer {
+      .row {
+        font-size: 22px;
+      }
+    }
+    .is-countdown {
+      font-size: 12px;
+    }
+  }
+  .benefits {
+   .benefit-item .benefits-glass{
+    display: none;
+    }
+   }
+  .number-of-flights {
+    .row {
+      margin-top: 35px;
+    }
+    .circle  {
+      .format-text();
+      margin: 13px auto;
+      width: 80px;
+      height: 80px;
+      font-size: @font-size+8;
+      border-radius: 40px;
+      color: @white;
+      float: left;
+      padding-top: 25px;
+      display: inline-block;
+    }
+    p {
+      max-width: 250px;
+      overflow: hidden;
+      padding-top: 10px;
+      padding-left: 20px;
+      font-family: "FiraSans-Medium";
+      font-size: 24px;
+      color: @white;
+      text-align: left;
+    }
+  }
+  .benefits {
+    margin-top: 5px;
+    margin-bottom: 22px;
+    .benefit-item {
+      font-size: @font-size;
+      margin-top:45px;
+      margin-bottom: 15px;
+    } 
+  }
+  .briefly {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .slider {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    .owl-controls {
+      height: 0;
+    }
+  .owl-prev {
+    position: relative;
+    bottom: 140px;
+    right: 20px;
+    }
+  .owl-next {
+    position: relative;
+    bottom: 175px;
+    left: 20px;
+  }
+  .owl-stage-outer {
+    height: 200px;
+    }
+  }
+  .question-and-means-payment {
+    padding-bottom: 35px;
+    background-color: #f8f8f8;
+  }
+  .instructors {
+    margin-top: 55px;
+    margin-bottom: 0px;
+    .instructor-icon {
+      background-image: url(../pict/big/icons/instructor-icon-sprite.png);
+      width: 74px;
+      position: absolute;
+      top: 120px;
+      left: 180px;
+      height: 75px;
+    }
+    #pilot1 {
+      .instructor-icon();
+        background-position: 0 0;
+     }
+     #pilot2 {
+      .instructor-icon();
+        background-position: 0 0;
+     }
+     #dispatcher {
+      .instructor-icon();
+        background-position: 147px 0;
+     }
+     #technician {
+      .instructor-icon();
+      background-position: 73px 0;
+    }
+  }
+  .reviews {
+    .reviews-slider {
+      margin-top: 20px;
+      padding-bottom: 25px;
+    }
+  }
+  .contacts {
+    background-image: url(../pict/small/bg/bg-adress.png);
+    min-height: 740px;
+     h2, h5 {
+      font-size: 22px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 20px;
+    }
+    .tel {
+        font-size: 22px;
+      }
+    .mail {
+      font-size: 16px;
+    }
+  }
+}
+//
+//        d8888b. .d8888P  a8888a                 d88888P .d8888P d8888b. 
+//            `88 88'     d8' ..8b                    d8' 88'         `88 
+//         aaad8' 88baaa. 88 .P 88                   d8'  88baaa. .aaadP' 
+//            `88 88` `88 88 d' 88    88888888      d8'   88` `88 88'     
+//            .88 8b. .d8 Y8'' .8P                 d8'    8b. .d8 88.     
+//        d88888P `Y888P'  Y8888P                 d8'     `Y888P' Y88888P 
+//
+@media (min-width:360px) and (max-width:762px){
+  section h2 {
+  font-size: 28px;
+   line-height: 26px;
+  }
+  .somit {
+    .sandwitch{
+      margin-top: 25px;
+    }
+  }
+  .somit-promo {
+  height: 645px;
+  background-position:  center 0px;
+  background-image: url(../pict/middle/bg/main-bg.png);//background-image: url(../pict/big/bg/bg-top.jpg);
+  background-repeat: no-repeat;
+  .promo-slogan{
+      margin-top: 55px;
+      font-size: @font-size + 10;
+    }
+    .hoverline {
+      visibility: hidden;
+    }
+  }
+  .benefits {
+    margin-top: 20px;
+    margin-bottom: 22px;
+    .benefit-item {
+      font-size: @font-size;
+      margin-top:15px;
+      margin-bottom: 15px;
+    } 
+    .benefit-icon {
+      width: 60px;
+    }
+    .benefit-item .benefits-glass {
+      display: none;
+    }
+  }
+  .briefly {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .slider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .owl-controls {
+      height: 0;
+    }
+    .owl-prev {
+    position: relative;
+    bottom: 200px;
+    right: 220px;
+    }
+    .owl-next {
+      position: relative;
+      bottom: 250px;
+      left: 220px;
+    }
+    .owl-stage-outer {
+      height: 340px;
+    }
+  }
+  .flight-plan {
+    .timer {
+      .row {
+        font-size: 28px;
+      }
+    }
+    .is-countdown {
+      font-size: 16px;
+    }
+  }
+  .number-of-flights {
+    .row {
+      margin-top: 35px;
+    }
+    .circle  {
+      .format-text();
+      margin: 13px auto;
+      width: 80px;
+      height: 80px;
+      font-size: @font-size+8;
+      border-radius: 40px;
+      color: @white;
+      float: left;
+      padding-top: 25px;
+      display: inline-block;
+    }
+    p {
+      max-width: 250px;
+      overflow: hidden;
+      padding-top: 10px;
+      padding-left: 20px;
+      font-family: "FiraSans-Medium";
+      font-size: 24px;
+      color: @white;
+      text-align: left;
+    }
+  }
+  .question-and-means-payment {
+    padding-bottom: 35px;
+    background-color: #f8f8f8;
+  }
+  .instructors {
+  margin-top: 55px;
+  margin-bottom: 0px;
+    .instructor-icon {
+      background-image: url(../pict/big/icons/instructor-icon-sprite.png);
+      width: 74px;
+      position: absolute;
+      top: 120px;
+      left: 320px;
+      height: 75px;
+    }
+    #pilot1 {
+      .instructor-icon();
+        background-position: 0 0;
+     }
+     #pilot2 {
+      .instructor-icon();
+        background-position: 0 0;
+     }
+     #dispatcher {
+      .instructor-icon();
+        background-position: 147px 0;
+     }
+     #technician {
+      .instructor-icon();
+      background-position: 73px 0;
+    }
+  }
+  .reviews {
+    .reviews-slider {
+      margin-top: 20px;
+      margin-bottom: 35px;
+    }
+  }
+  .contacts {
+    padding-top: 25px;
+    padding-bottom: 0;
+    background-image: url(../pict/middle/bg/bg-adress.png);
+    min-height: 530px;
+    h2, h5 {
+      font-size: 22px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 20px;
+    }
+    .tel {
+        font-size: 22px;
+      }
+    .mail {
+      font-size: 22px;
+    }
+  }
+}
+//      
+//      d88888P .d8888P d8888b.                .d888b. .d888b. d8888b. 
+//          d8' 88'         `88                Y8' `88 Y8' `88     `88 
+//         d8'  88baaa. .aaadP'                `8bad88 `8bad88 .aaadP' 
+//        d8'   88` `88 88'        88888888        `88     `88 88'     
+//       d8'    8b. .d8 88.                    d.  .88 d.  .88 88.     
+//      d8'     `Y888P' Y88888P                `8888P  `8888P  Y88888P 
+//                                                                     
+//      
+@media (min-width:762px) and (max-width:992px){
+  .somit-promo {
+    height: 645px;
+    background-position:  center 0px;
+    background-image: url(../pict/middle/bg/main-bg.png);//background-image: url(../pict/big/bg/bg-top.jpg);
+    background-repeat: no-repeat;
+    h1 {
+      font-size: @font-size + 26;
+    }
+    #hoverline1 {
+      bottom: 210px;
+      left: 160px;
+    }
+    #hoverline2 {
+      bottom: 300px;
+      right: 190px;
+    }
+    #hoverline3 {
+     bottom: 80px;
+      left: 240px;
+    }
+    #hoverline4 {
+      bottom: 10px;
+      right: 180px;
+    }
+  }
+  .somit {
+    .sandwitch {
+      margin-top: 25px;
+    }
+  }
+  .benefits {
+    .benefit-item {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .benefit-label {
+      position: relative;
+      top: 15px;
+    }
+    .benefit-item .wheel {
+      display: none;
+     }
+  }
+  .briefly {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    iframe {
+      margin-top: 35px;
+      margin-bottom: 15px;
+    }
+  }
+  .slider {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    .owl-my {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    & .owl-stage-outer {
+      height: 415px;
+    }
+    .owl-nav {
+      height: 0;
+    }
+    .owl-prev {
+      width: 20px;
+      bottom: 155px;
+      left: 20px;
+    }
+    .owl-next {
+      width: 20px;
+      bottom: 155px;
+      left: 670px;
+    }
+  }
+  .flight-plan {
+    margin-top: 30px;
+  }
+  .instructors {
+    margin-top: 55px;
+    margin-bottom: 0px;
+    .instructor-icon {
+      background-image: url(../pict/big/icons/instructor-icon-sprite.png);
+      width: 74px;
+      position: absolute;
+      top: 120px;
+      left: 235px;
+      height: 75px;
+    }
+    #pilot1 {
+      .instructor-icon();
+        background-position: 0 0;
+     }
+     #pilot2 {
+      .instructor-icon();
+        background-position: 0 0;
+     }
+     #dispatcher {
+      .instructor-icon();
+        background-position: 147px 0;
+     }
+     #technician {
+      .instructor-icon();
+      background-position: 73px 0;
+    }
+  }
+
+  .reviews {
+    margin-top: 100px;
+    margin-bottom: 45px;
+   .reviews-slider {
+      margin-top: 20px;
+    }
+  }
+  .price { 
+    margin-top: 52px;
+    margin-bottom: 40px;
+    .price-form { 
+      margin-top: 30px;
+      background-image: url(../pict/big/bg/bg-price.jpg);
+    }
+    form {
+      border-radius: @bdrs;
+      padding: 27px 27px 0 27px;
+      margin: 25px 92px;
+      background-color: @white;
+      .btn {
+        margin-top: 20px;
+        margin-bottom: 27px;
+      }
+    }
+    .question-and-means-payment {
+      margin-bottom: 60px;
+      .accordion-toggle {
+        text-decoration: underline;
+        -moz-text-decoration-style: dashed;
+        text-decoration-style: dashed;
+      }
+    }
+    .number-of-flights {
+      .circle  {
+        width: 90px;
+        height: 90px;
+        font-size: @font-size+5;
+        border-radius: 45px;
+        span { 
+          position: relative;
+          bottom: 40px;
+        }
+      }
+      p {
+        max-width: 250px;
+        overflow: hidden;
+        margin-top: 25px;
+        font-family: "FiraSans-Medium";
+        font-size: 22px;
+        color: @white;
+        text-align: center;
+      }
+    }
+  }
+  .contacts {
+    padding-bottom: 60px;
+    margin-top: 40px;
+    .mail, .link-social{ display: inline;}
+  }
+ .footer-nav {
+    .sandwitch { 
+      margin-top: 25px;
+    }
+  }
+}
+//
+//        .d888b. .d888b. d8888b. 
+//        Y8' `88 Y8' `88     `88 
+//        `8bad88 `8bad88 .aaadP' 
+//            `88     `88 88'     
+//        d.  .88 d.  .88 88.     
+//        `8888P  `8888P  Y88888P       
+//                                            
+@media (min-width:992px){
+  .promo-slogan {
+    width: 60%;
+}
+ .benefits {
+  .benefit-item .wheel{
+    display: none;
+   }
+  }
+.benefit-item:nth-child(2),.benefit-item:nth-child(3){
+    margin-top: 35px;
+  }
+  .number-of-flights {
+    & .circle  {
+      .format-text();
+      margin: 0 auto;
+      width: 160px;
+      height: 160px;
+      font-size: @font-size+18;
+      border: 6px solid @white;
+      border-radius: 80px;
+      text-align: center;
+      color: @white;
+      line-height:  160px;
+    }
+    p {
+      max-width: 225px;
+      overflow: hidden;
+      margin-top: 25px;
+      font-family: "FiraSans-Medium";
+      font-size: 24px;
+      color: @white;
+      text-align: center;
+    }
+  }
+  .reviews {
+    .reviews-slider {
+      margin-top: 20px;
+      padding-bottom: 25px;
+    }
+  }
+}
+//
+//           oo             d88  d8888b.  a8888a   a8888a  
+//                           88      `88 d8' ..8b d8' ..8b 
+//88d8b.d8b. dP 88d888b.     88  .aaadP' 88 .P 88 88 .P 88 
+//88'`88'`88 88 88'  `88     88  88'     88 d' 88 88 d' 88 
+//88  88  88 88 88    88     88  88.     Y8'' .8P Y8'' .8P 
+//dP  dP  dP dP dP    dP    d88P Y88888P  Y8888P   Y8888P                                            
+@media (min-width: 1200px) {
+ .benefits {
+   .container {
+      overflow: hidden;
+    }
+    .benefit-item .wheel{
+      display: none;
+    }
+  }
+  .reviews {
+    .reviews-slider {
+      margin-top: 30px;
+      padding-bottom: 25px;
+    }
+  }
+}
+/*
+ .d888888  dP        d888888P          .d88888b  dP     dP  dP  88888888b d888888P          dP     dP 
+d8'    88  88           88       dP    88.    "' 88     88  88  88           88       dP    88   .d8' 
+88aaaaa88a 88           88       88    `Y88888b. 88aaaaa88a 88 a88aaaa       88       88    88aaa8P'  
+88     88  88           88    88888888       `8b 88     88  88  88           88    88888888 88   `8b. 
+88     88  88           88       88    d8'   .8P 88     88  88  88           88       88    88     88 
+88     88  88888888P    dP       dP     Y88888P  dP     dP  dP  dP           dP       dP    dP     dP */

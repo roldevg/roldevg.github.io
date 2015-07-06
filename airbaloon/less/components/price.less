@@ -1,0 +1,73 @@
+.price {
+  margin-top: 92px;
+  margin-bottom: 98px;
+   p {
+    .format-text();
+    color: @dark-grey;
+    font-family: "FiraSans-Italic";
+   }
+  & .description{
+  }
+  .parameter {
+    .format-text();
+    color: @dark-grey;
+  }
+  form {
+    .format-text();
+    margin-top: 60px;
+    .row {
+      margin-bottom: 20px;
+    }
+    .flight-route select {
+        width: 100%;
+      }
+      .number-of-persons select {
+        width: 96px;
+      }
+    select{
+      background-image: url(../pict/big/icons/form-icon-arrow.png);
+      background-repeat: no-repeat;
+      background-position: 100% 50%;
+      outline: none;
+      border-radius:@bdrs;
+      -webkit-appearance:none;
+      -moz-appearance:none;
+      appearance:none;
+    }
+    input {
+      margin-left: ;
+      border-radius:@bdrs;
+      height: 35px;
+      width: 100%;
+      padding-left: 30px;
+      background-position: 7px 7px;
+      background-repeat: no-repeat;
+      padding-left: 30px;
+    }     
+    .name input {
+      background-image: url(../pict/big/icons/form-icon-man.png);
+    }
+    .phone input {
+      background-image: url(../pict/big/icons/form-icon-phone.png);
+    }
+  }
+}
+.price-end {
+  .price-red-big {
+    color: @price-color;
+    font-family: "FiraSans-Medium";
+    font-size: 34px;
+    line-height: 24px;
+    position: relative;
+    top: 5px;
+  }
+  & .btn{
+    background-color: @btn-color;
+    color: @white;
+    font-family: "FiraSans-Medium";
+    font-size: 18px;
+    border-radius:@bdrs;
+    line-height: 24px;
+    float: right;
+  }   
+}

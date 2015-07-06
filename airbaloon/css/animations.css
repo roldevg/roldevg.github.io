@@ -1,0 +1,29 @@
+.baloon {
+  position: absolute;
+  top: 50px;
+  -webkit-animation: fly 10s infinite linear;
+  left: 20px;
+  display: block;
+  -webkit-animation-delay: 0s;
+}
+.baloon:first-of-type {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.baloon:nth-child(2) {
+  -webkit-animation-delay: 2s;
+}
+@-webkit-keyframes fly {
+  0% {
+    left: -5%;
+    top: 50px;
+  }
+  50% {
+    left: 40%;
+    top: 30px;
+  }
+  100% {
+    left: 100%;
+    top: 10px;
+  }
+}

@@ -1,0 +1,62 @@
+.contacts {
+  padding-top: 100px;
+  .format-text();
+  line-height: 26px;
+  h3 {
+    font-family: "FiraSans-Italic";
+    font-size: @font-size;
+    color: @grey;
+  }
+  h5 {
+    font-family: "FiraSans-Medium";
+    font-size: 22px;
+  }
+  .adress:before {
+    content: "";
+    float:left;
+    background-image: url(../pict/big/icons/adress-icon-sprite.png);
+    height: 50px;width: 40px;
+    margin:10px 10px 0 0;
+    background-position: 40px 0;
+  }
+  p {
+    word-wrap: normal;
+    font-family: "FiraSans-Italic";
+    font-size: 20px;
+    color: @grey;
+    margin-left: 50px;
+  }
+  .tel {
+    font-family: "FiraSans-Medium";
+    font-size: @font-size+8;
+    color: @dark-grey;
+  }
+  .mail {
+    .format-text ();
+    font-size: @font-size+4;
+    margin-left: 0px;
+    text-decoration: underline;
+  }
+  .mail:before{
+    content: "";
+    float: left;
+    background-image: url(../pict/big/icons/mail.png);
+    height: 18px;width: 24px;
+    margin:0px 10px 0 0;
+    background-position: 0px 0;
+  }
+  a {
+    margin: 5px;
+  }
+  .link-social {
+    margin-top: 25px;
+    display: inline;
+  } 
+  .footer-airplan {
+    background-image: url(../pict/big/icons/adress-icon-sprite.png);
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    background-position: 0px 0px;
+  }
+}

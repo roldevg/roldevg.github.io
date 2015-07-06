@@ -1,0 +1,59 @@
+.question-and-means-payment {
+  #wrapper { //TABS
+    border-radius: @bdrs;
+    background-color: @white;
+    padding-top: 30px;
+    .format-text ();
+    i{
+      text-decoration: underline;
+    }
+    .active, .active:hover {
+      background-color: @coral;
+     }
+    & div {
+    display:none;
+    margin-left: 20px;
+    padding-top: 20px;
+    }
+    & span {
+      border: @border @light-grey;
+      padding: 10px 25px 8px 25px;
+      cursor: pointer;
+      margin-left: 10px;
+      font-family: @font;
+      background-color:@light-grey;
+    }
+    & span:hover,
+    & span:active {
+      background-color: @coral;
+      color: @white;
+    }
+    & span:first-child{margin-left: 20px;}
+  }
+   #wrapper.tab1 div.tab1,
+  #wrapper.tab2 div.tab2,
+  #wrapper.tab3 div.tab3,
+  #wrapper.tab4 div.tab4 {
+    display:block;
+    width:100%;
+  }
+  #wrapper.tab1 span.tab1,
+  #wrapper.tab2 span.tab2,
+  #wrapper.tab3 span.tab3,
+  #wrapper.tab4 span.tab4 {
+    color: black;
+    cursor: default;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+.panel-group {
+  .accordion-toggle {
+    .format-text();
+  }
+  .panel-body {
+    .format-text();
+    font-family: "FiraSans-Italic";
+    font-size: @font-size - 2; 
+  }
+}
